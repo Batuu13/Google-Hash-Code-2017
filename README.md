@@ -8,11 +8,11 @@ USAGE:
 
 
 Algorithm's steps are following:
-1) Calculate the scores of each video (Score = (mainLatency - localLatency) * viewCount) and put in a map in every related cache.
-2) Select a cache to choose a video to store.
-3) After selecting decrease score from other caches that are related to this cache (caches that are connected to endpoints of the initial cache)
-4) After all videos are selected for that cache repeat number 2
-5) after all caches are selected print selected videos for caches.
+- 1) Calculate the scores of each video (Score = (mainLatency - localLatency) * viewCount) and put in a map in every related cache.
+- 2) Select a cache to choose a video to store.
+- 3) After selecting decrease score from other caches that are related to this cache (caches that are connected to endpoints of the initial cache)
+- 4) After all videos are selected for that cache repeat number 2
+- 5) after all caches are selected print selected videos for caches.
 
 Cache choosing order mathers. That is why we are choosing caches in latency score order.
 
