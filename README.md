@@ -1,6 +1,7 @@
 # Google-Hash-Code-2017
 
 This the source code of our solution at Google Hash Code 2017
+
 Extended Round: 2372746 Points. 192nd At Global. 
 
 USAGE:
